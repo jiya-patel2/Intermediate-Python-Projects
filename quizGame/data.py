@@ -1,0 +1,37 @@
+anime_data = [
+    # easy
+    {"text": "The anime “Code Geass” was sponsored by Pizza Hut.", "answer": "True"},
+    {"text": "There are more than 60,000 anime productions in existence worldwide.", "answer": "True"},
+    {"text": "Anime originally used 'limited animation' techniques as an artistic choice, not due to budget constraints.", "answer": "False"},
+    {"text": "Anime is the global term for all animated content, not just Japanese animation.", "answer": "False"},
+    {"text": "'Attack on Titan' has been banned in some countries due to its violent content.", "answer": "True"},
+    {"text": "The first surviving Japanese animated film dates back to before 1900.", "answer": "False"},
+    {"text": "More than '70%' of all animated entertainment worldwide comes from Japanese anime.", "answer": "True"},
+    {"text": "Hayao Miyazaki once worked at the anime studio Toei Animation early in his career.", "answer": "True"},
+    {"text": "All anime series are targeted only at children.", "answer": "False"},
+    {"text": "Terms like 'shonen' and 'shojo' refer to genres, not target audiences.", "answer": "False"},
+    {"text": "Anime often avoids being labelled as 'cartoons' because of its stylistic depth and themes.", "answer": "True"},
+    {"text": "Based on fandom quizzes, anime trivia often mixes real production facts with myths.", "answer": "True"},
+    # intermediate
+    {"text": "Naruto was originally planned to be about ramen, not ninjas.", "answer": "True"},
+    {"text": "One Piece holds the Guinness World Record for the most copies published for the same comic book series by a single author.", "answer": "True"},
+    {"text": "Death Note was banned in China for promoting dangerous behavior among students.", "answer": "True"},
+    {"text": "Dragon Ball was inspired in part by the Chinese novel 'Journey to the West'.", "answer": "True"},
+    {"text": "The anime Pokémon was temporarily pulled from television in Japan due to causing seizures in children.", "answer": "True"},
+    {"text": "Studio Ghibli was founded by Hayao Miyazaki and Isao Takahata.", "answer": "True"},
+    {"text": "Attack on Titan was Hajime Isayama's first published manga.", "answer": "True"},
+    {"text": "Sailor Moon was originally intended to be a horror anime.", "answer": "False"},
+    {"text": "The longest-running anime series is Naruto.", "answer": "False"},
+    {"text": "Demon Slayer: Mugen Train became Japan's highest-grossing film of all time.", "answer": "True"},
+    {"text": "The term 'isekai' refers to a romance-focused anime genre.", "answer": "False"},
+    {"text": "Anime eyes are often drawn large to make emotional expressions more visible.", "answer": "True"},
+    #  hard
+    {"text": "Spirited Away was the first non-English animated film to win the Academy Award for Best Animated Feature.", "answer": "True"},
+    {"text": "The creator of One Piece, Eiichiro Oda, has stated that he already knows the ending of the series.", "answer": "True"},
+    {"text": "In Japan, anime is considered a niche form of entertainment.", "answer": "False"},
+    {"text": "Neon Genesis Evangelion was originally planned as a lighthearted comedy.", "answer": "False"},
+    {"text": "The character Goku was originally designed as a monkey-like boy with a tail.", "answer": "True"},
+    {"text": "My Hero Academia is set in a world where everyone has superpowers.", "answer": "False"},
+    {"text": "The Big Three of anime refers to Naruto, One Piece, and Bleach.", "answer": "True"},
+    {"text": "Anime openings are usually skipped by Japanese audiences.", "answer": "False"}
+]
