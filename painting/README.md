@@ -1,17 +1,19 @@
 ## 🎨 Hirst-Style Spot Painting Generator
 A Python project that uses the turtle graphics library and the colorgram package to recreate the iconic "Spot Painting" style of artist Damien Hirst. The script generates a 10x10 grid of randomly colored dots to create a unique piece of digital art every time it runs.
 
-## 🚀 FeaturesColor Extraction: 
+## 🚀 Features
+**Color Extraction:**
 Includes logic to extract a color palette from any image (e.g., images.png) using the colorgram library.Automated Painting: Uses a "snake" movement pattern to efficiently fill the canvas.Randomization: Pulls from a curated list of RGB values to ensure an aesthetically pleasing, yet random, distribution of colors.Adjustable Speed: Set to fastest to watch the artwork materialize in seconds.
 
-## 🛠️ InstallationClone the repository:
+## 🛠️ Installation
+**Clone the repository:**
 ```Bash
-git clone https://github.com/jiya-patel2/painting.git ```
+git clone https://github.com/jiya-patel2/painting.git 
 
 Install dependencies:This project requires the colorgram.py library if you wish to extract colors from your own images.
 
 ```Bash 
-pip install colorgram.py ```
+pip install colorgram.py 
 
 ## 💻 How It WorksThe script follows a coordinate-based logic to navigate the "canvas":
 Setup:
