@@ -7,12 +7,12 @@ Includes logic to extract a color palette from any image (e.g., images.png) usin
 
 ## 🛠️ Installation
 **Clone the repository:**
-```Bash
+Bash
 git clone https://github.com/jiya-patel2/painting.git 
 
 Install dependencies:This project requires the colorgram.py library if you wish to extract colors from your own images.
 
-```Bash 
+Bash 
 pip install colorgram.py 
 
 ## 💻 How It WorksThe script follows a coordinate-based logic to navigate the "canvas":
