@@ -1,4 +1,4 @@
-from turtle import Turtle,Screen
+from turtle import Turtle
 
 X_POSITION = [-40, -20, 0]
 MOVE_DISTANCE = 20
