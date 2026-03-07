@@ -6,7 +6,7 @@ from scoreboard import Scoreboard
 
 screen = Screen()
 screen.setup(width=600, height=600)
-screen.bgcolor("beige")
+screen.bgcolor("#1E1E2F")
 screen.tracer(0)
 
 player = Player()
@@ -39,6 +39,4 @@ while game_is_on:
         player.reset_postion()
         score_board.update_level()
         
-     
-
 screen.exitonclick()
