@@ -19,10 +19,17 @@ class Snake:
             
     def add_part(self, part):
         snake_body = Turtle(shape = "square")
-        snake_body.color("#FDB5CE")
+        snake_body.color("#D93770")
         snake_body.penup()
         snake_body.goto(part)
         self.snake.append(snake_body)
+
+    def reset(self):
+        for snake_body in self.snake:
+            snake_body.goto(2000,2000)
+        self.snake.clear()
+        self.create_snake()
+        self.head = self.snake[0]
 
     def extend(self):
         self.add_part(self.snake[-1].position())
