@@ -11,17 +11,18 @@ class QuizBrain:
     def next_question(self):
         current_question = self.question_list[self.question_number]
         self.question_number += 1
+        self.correct_answer = current_question.answer
         # FIX: decode HTML entities
         question_text = html.unescape(current_question.text)
-        answer = input(f"Q.{self.question_number} {question_text} (True/False): ")
-        self.check_answer(answer,current_question.answer)
+        return f"Q.{self.question_number} {question_text}"
+        # answer = input(f"Q.{self.question_number} {question_text} (True/False): ")
+        # self.check_answer(answer,current_question.answer)
+        
 
-    def check_answer(self,answer,correct_answer):
-        if answer.lower() == correct_answer.lower():
-            print("You got it right!")
+    def check_answer(self,answer):
+        if answer.lower() == self.correct_answer.lower():
             self.score += 1
+            return True
         else:
-            print("That's wrong.")
-        print(f"The correct answer was: {correct_answer}")
-        print(f"Your current score is: {self.score}/{self.question_number}")
-        print("\n" * 2)
+            return False
+       
