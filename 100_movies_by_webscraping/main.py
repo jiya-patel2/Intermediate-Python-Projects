@@ -1,0 +1,20 @@
+import requests
+from bs4 import BeautifulSoup
+import html
+
+URL = "https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/"
+
+response = requests.get(URL)
+response.raise_for_status()
+website_html = response.text
+
+soup = BeautifulSoup(website_html, "html.parser")
+
+all_movies = soup.find_all(name = "h3", class_="title")
+
+movie_title = [html.unescape(movie.getText()) for movie in all_movies]
+movies = movie_title[::-1]
+
+with open (".\\100_movies_by_webscraping\\movies.txt", "w", encoding="utf-8") as file:
+    for movie in movies:
+        file.write(f"{movie}\n")
